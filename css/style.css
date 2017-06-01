@@ -1,0 +1,248 @@
+@charset="UTF-8";
+
+body {
+	background:#BFBFBF; 
+	font-size:18px;
+	color:#3d3d3d;
+	font:18px "open_sanslight";
+}
+.wrapper {
+	background:#e5e5e5;
+	width:1140px;
+	margin:0 auto;
+}
+header {
+	color:#6a6a6a;
+	text-align:center;
+}
+.logo {
+	margin:20px 0;
+}
+header h1 {
+	font:40px "open_sansbold";
+	font-weight:bold;
+	line-height:60px;
+}
+header h2 {
+	font-size:24px;
+	margin:0 0 15px 0;
+	color:#3d3d3d;
+
+}
+.menu{
+	background:linear-gradient(to bottom, #cdd242 0%,#74a34a 100%);
+}
+.menu ul {
+	text-align:center;
+}
+.menu ul li {
+	display:inline-block;
+	width:153px;
+	height:50px;
+}
+.menu ul li a {
+	display:block;
+	text-decoration:none;
+	font:14px/50px "open_sansregular";
+	color:#3d3d3d;
+}
+#home{
+	width:960px;
+	margin:0 auto 15px auto;
+	padding:30px 0 50px 0;
+}
+.strong {
+	font-family:"open_sansbold";
+}
+
+.right, .left {
+	width:440px;
+	display:inline-block;
+	float:left;
+	margin:0 0 15px 0;
+	line-height:22px;
+}
+.right{
+	margin-right:35px;
+}
+.clear {clear:both;}
+
+#whatItDoes {
+	width:100%;
+	background:#313131 url(../img/arrow.png) no-repeat right 0;
+	height:456px;
+	padding:0 0 50px 0;
+}
+#whatItDoes .inner {
+	width:960px;
+	margin:0 auto;
+	padding:110px 0 0 80px;
+}
+#whatItDoes .inner .col1 {
+	width:640px;
+}
+.inner h3 {
+	font-size:46px;
+	color:#9cb846;
+	margin:0 0 10px 0;
+}
+.inner p {
+	color:#e5e5e5;
+}
+
+#howToUse {
+	width:100%;
+	background:#3f3f3f;
+}
+#howToUse .inner {
+	width:960px;
+	margin:0 auto;
+	padding:30px 0 0 80px;
+}
+#howToUse2 {
+	width:100%;
+	background:#3f3f3f;
+	padding:0 0 30px 0;
+}
+#howToUse2 .inner {
+	width:960px;
+	margin:0 auto;
+	padding:0 0 0 80px;
+}
+#demo {
+	width:100%;
+	background:#504f4f url(../img/screen.png) no-repeat left 30px;
+	height:456px;
+}
+#demo .inner {
+	width:960px;
+	margin:0 auto;
+	padding:110px 0 0 80px;
+}
+#demo .inner .col1 {
+	width:480px;
+	float:right;
+}
+.viewDemo {
+	background: url(../img/viewDemo.png) top left no-repeat;
+}
+.viewDemo a {
+	display:block;
+	width: 244px;
+	height: 39px;
+	padding: 20px;
+	margin:20px 0 0 0;
+	text-decoration: none;
+	color: #3d3d3d;
+	font-size: 30px;
+}
+.weLove {
+	background: url(../img/heart_bg.png) no-repeat;
+	background-color:#9b9999;
+	width:100%;
+	height:470px;
+}
+.html5img {
+	background: url(../img/heart_bg.png) no-repeat, url(../img/logo_html5.png) no-repeat right bottom;
+	background-color:#9b9999;
+}
+.css3img {
+	background: url(../img/heart_bg.png) no-repeat, url(../img/logo_css3.png) no-repeat right bottom;
+	background-color:#9b9999;
+}
+.jqueryimg {
+	background: url(../img/heart_bg.png) no-repeat, url(../img/logo_jquery.png) no-repeat 680px 150px;;
+	background-color:#9b9999;
+}
+.weLove .inner {
+	width:960px;
+	margin:0 auto;
+	padding:80px 0 0 80px;
+}
+.weLove .inner .col1 {
+	margin:40px 0 0 0;
+	width:400px;
+	float:left;
+}
+.weLove ul li {
+	margin:30px 0 0 0;
+	display:inline-block;
+	width:120px;
+	height:40px;
+	text-align:center;
+}
+.weLove ul li a {
+	display:block;
+	text-decoration:none;
+	font:20px/40px "open_sansregular";
+	color:white;
+}
+.html5{
+	background:#E44D26;
+}
+.css3{
+	background:#0070BA;
+}
+.jQuery{
+	background:#09D4FF;
+}
+
+#download {
+	width:100%;
+	background:#aabd46 url(../img/download-bg.png) no-repeat right 40px;
+	height:382px;
+	padding:0 0 80px 0;
+}
+#download .inner {
+	width:960px;
+	margin:0 auto;
+	padding:40px 0 0 80px;
+}
+#download .inner .col1 {
+	width:480px;
+	height:155px;
+}
+#download h3, #download p{
+	color:#424242;
+}
+.download {
+	margin:20px 0 0 0;
+}
+#download img {
+	width:405px;
+	height:137px;
+}
+#aboutMe {
+	width:100%;
+	background:#161616 url(../img/smint-logo-faded.png) no-repeat -100px -70px;
+	height:550px;
+}
+#aboutMe .inner {
+	width:960px;
+	margin:0 auto;
+	padding:30px 0 0 0;
+}
+#aboutMe .inner .col1 {
+	width:310px;
+	float:right;
+	margin-right:40px;
+}
+
+
+.fixed {position:fixed; top:0; width:1140px;}
+.selected {background:#F8C600;}
+
+#backtotop {
+    font-family:tahoma;
+    font-size:16px;
+    width:100px;
+    background:linear-gradient(to bottom, #cdd242 0%,#74a34a 100%);
+    color:#3d3d3d;
+    text-decoration:none;
+    position:fixed;
+    right:10px;
+    bottom:30px;
+    padding:7px 7px 7px 7px;
+    display:none;
+}
+

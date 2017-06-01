@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SMINT | The simple jQuery plugin for lovers of one page websites.</title>
+	<link rel="stylesheet" type="text/css" href="css/resetmeyer.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header id="top">
+			<div>
+				<img src="img/smint-logo.png" alt="(smint) - Sticky Menu Including Navigation Thingy" class="logo">
+				<h1>sticky menu including navigation thingy</h1>
+				<h2>SMINT is a simple plugin for lovers of one page websites</h2>
+			</div>
+		</header>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#whatItDoes">What it does</a></li>
+					<li><a href="#howToUse">How to use</a></li>
+					<li><a href="#demo">Demo</a></li>
+					<li><a href="#download">Download</a></li>
+					<li><a href="#aboutMe">About Me</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="home">
+			<p class="strong">SMINT v2.0 has now been released (finally)!</p><br>
+			<div class="right">
+				<div>
+					<p>Got a few hours spare this week to put it together. Ive had great feedback on this simple plugin, so thanks to everyone who has been sharing the love!</p><br>
+
+					<p>I've had some brilliant suggestions and lots of people extending the plugin, some of which has been incorporated into v2.0. Special thanks go out to Ryan Clarke (@clarkieryan) and mcpacosy (@mcpacosy) whose additions have been incorporated into the main download.</p>
+				</div>
+			</div>
+			<div class="left">
+				<div>
+					<p class="strong">So whats new then?</p><br>
+					<p>The main addition is the addition of active states on the nav when you scroll down the page.</p><br>
+
+					<p>As you scroll, the class 'active' is added to the link of the section you are viewing. Also incorporated a disbale class, just in case there are some links in your nav that dont scroll, perhaps link to an external site or launch a pop etc. Just add the class 'smint-disable' to a link</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<p>I'll be putting together a more detailed tutorial on how to set it up, and explaining things a little more, so stay tuned!</p>
+		</div>
+		
+		<div id="whatItDoes">
+			<div class="inner">
+				<div class="col1">
+					<h3>What exactly does it do again?</h3>
+					<p>Smint is a simple jQuery plugin that helps with the navigation on one page style websites.</p><br>
+
+					<p>It has 2 main elements, a sticky navigation bar that stays at the top of the page while you scroll down and menu buttons that automatically scroll the page to the section you clicked on.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="howToUse">
+			<div class="inner">
+				<h3>So how do I use it?</h3>
+				<div class="right">
+					<div>
+						<p>Create a 'div' for your menu and give it a class name.</p><br>
+
+						<p>Inside this you put your 'a' tags and give each one an #id. This is your menu wrapper and it should be set to position:absolute</p><br>
+
+						<p>Next, add a class to each of the sections of your one page site. The class names must match the #ids of the 'a' links you created above. So if your first link has an id of #section1 you then add the class .section1 to your first div. Repeat this for each link you have.</p><br>
+
+						<p>Add jQuery to the head section of your page</p><br>
+
+						<p>Add the jquery.smint.js to the head section of your page</p>
+					</div>
+				</div>
+				<div class="left">
+					<div>
+						<p>Call the function with the following script:</p><br>
+
+						<p class="strong">$(document).ready( function() {<br>
+							$('.subMenu').smint();<br>
+						});</p><br>
+
+						<p>You can replace <span class="strong">.subMenu</span> with the class name of your menu</p><br>
+
+						<p>To give you a littl emore flexability, the class.fxd gets added to your menu when it becomes fixed to the top of the screen, allowing some extra styleing to be added if needed.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="inner">
+				<h3>Options</h3>
+				<div class="right">
+					<p>SMINT is a simple plugin, so only has an option for how fast the page scrolls.</p><br>
+
+					<p>$('.subMenu').smint({<br>
+					'scrollSpeed' : 1000<br>
+					});</p><br>
+
+					<p>The default speed is 500 (half a second) but you can now set that to be whatever you like.</p>
+				</div>
+				<div class="left">
+					<img src="img/code.png" alt="">
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div id="demo">
+			<div class="inner">
+				<div class="col1">
+					<h3>Demo</h3>
+					<p>This page is a demo in itself!</p><br>
+
+					<p>But you can go to the standalone, skeleton demo page which has all the basic functions and minimal styling.</p>
+					<p class="viewDemo"><a href="">View Demo</a></p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="download">
+			<div class="inner">
+				<div class="col1">
+					<h3>Download Smint NOW!<br>
+					OMG its free!</h3>
+					<p>The download comes with demo included so feel free to use that as a staring template for your own one page website.</p>
+					<p class="download"><a href=""><img src="img/download-smint.png" alt="Dwonload SMINT"></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div id="aboutMe">
+			<div class="inner">
+				<div class="col1">
+					<h3>About Me</h3>
+					<p>My name is Robert McCracken and I'm a web designer based in Belfast. Been doing this for over 10 years and SMINT is my first dip into a jQuery plugin!</p><br>
+
+					<p>So if any jQuery wizards out there want to rip this apart and tell me how bad it is or suggest ways to improve it, Id love to get some constructive criticism as it is my first plugin!</p><br>
+
+					<p>And if you use SMINT in one of your projects, feel free to drop me a message on twitter @rabmyself and say hello!</p>
+				</div>
+			</div>
+		</div>
+		<a href="#" id="backtotop">BACK TO TOP</a>		
+	</div>
+</body>
+</html>
